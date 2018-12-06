@@ -1,0 +1,32 @@
+.header{
+    height: 5em;
+    background-color: #006EBD;
+}
+.w40{
+    width: 40%;
+}
+.w60{
+    width: 60%;
+}
+.selectBox{
+    width: 65%;
+    height: 3em;
+    border-radius: 4px;
+}
+.queryBox{
+    width: 65%;
+    height: 3em;
+    border-radius: 4px;
+    float: right;
+}
+.searchIcon{
+    position: relative;
+    background-color: white;
+    left: 94%;
+    bottom: -13px;
+    border: none;
+}
+.searchIcon:hover{
+    cursor: pointer;
+    // background: #eee;
+}
