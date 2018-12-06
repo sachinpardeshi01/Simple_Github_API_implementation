@@ -28,12 +28,12 @@ export default class App extends Component {
           let reposFromApi = [];
           for(let data of this.state.data){
 
-            axios.get(`https://api.github.com/users/${data.login}/repos?page=1&per_page=2`)
-            .then(res=>{
-                reposFromApi.push(res.data)
-                this.setState({repos:reposFromApi});
-            })
-            .catch(err => {console.log(err)})
+            // axios.get(`https://api.github.com/users/${data.login}/repos?page=1&per_page=2`)
+            // .then(res=>{
+            //     reposFromApi.push(res.data)
+            //     this.setState({repos:reposFromApi});
+            // })
+            // .catch(err => {console.log(err)})
           }
     
 
